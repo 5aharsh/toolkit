@@ -28,9 +28,9 @@ def hash(filename, type):
 
 
 @toolkit.command()
-@click.option("--summary", help="Show a short view of running processes", is_flag=True)
+@click.option("--summary", help="Show a summarized view of running processes", is_flag=True)
 @click.option("--search", help="Search a running process by name or ID", type=str, default=False)
-@click.option("--sort", help="Sort results by", type=click.Choice(['name', 'id', 'session', 'memory'], case_sensitive=False))
+@click.option("--sort", help="Sort results by name, id, session or memory size", type=click.Choice(['name', 'id', 'session', 'memory'], case_sensitive=False))
 def task(summary, search, sort):
     '''
     List all running processes.\n
