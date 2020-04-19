@@ -204,5 +204,5 @@ CTRL-C to quit the server
 
 Open the address in your browser
 
-![File](https://github.com/guywhogeek/toolkit/media/server.png)
+![File](https://github.com/guywhogeek/toolkit/raw/master/media/server.png)
 
