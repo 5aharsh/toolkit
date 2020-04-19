@@ -65,7 +65,7 @@ def kill(id, name, force):
 @click.option('--retries', help="No. of retries if connection fails", default=3, required=False)
 def wget(url, name, retries):
     '''
-    Download file through server.\n
+    Download file on server.\n
     Usage: toolkit wget URL [FILENAME]
     '''
     download = WGet()
