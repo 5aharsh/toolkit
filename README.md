@@ -64,7 +64,7 @@ Options:
   --help             Show this message and exit.
 ```
 
-Example:
+**Example**
 
 Hash of `.gitignore` file of this repository.
 
@@ -89,7 +89,7 @@ Options:
   --help                          Show this message and exit.
 ```
 
-Example:
+**Example**
 
 List of all chrome processes sorted by order of memory consumption.
 
@@ -142,7 +142,7 @@ Options:
   --help       Show this message and exit.
 ```
 
-Example:
+**Example**
 
 Kill a process with process ID
 
@@ -165,7 +165,7 @@ Options:
   --help             Show this message and exit.
 ```
 
-Example:
+**Example**
 
 Downloading a file on internet
 
@@ -188,7 +188,7 @@ Options:
   --port INTEGER  Port to run the server
   --help          Show this message and exit.
 ```
-Example:
+**Example**
 
 Host some local files on your own server. Navigate to the directory which you want to host and run the server.
 
